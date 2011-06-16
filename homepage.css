@@ -1,0 +1,175 @@
+body {
+	font-family: sans-serif;
+	font-family: serif; 
+/*	background-image: url('arkaplan/bg2.png'); 
+	background-repeat: no-repeat;
+	background-attachment: fixed; */
+	margin-bottom:	2.3em;
+	padding-bottom:	3em;
+}
+
+div.homepage {
+	max-width: 45em;
+/*	right: 2px;
+	position: absolute; */
+	margin-top: -5px;
+}
+
+a:link, a:visited, a:active, a:hover {
+	color: #aa0000;
+}
+
+a:hover {
+	background-color: #ffffcc;
+}
+
+span.online {
+	font-family: monospace;
+}
+
+p {
+	text-indent: 1em;
+	padding-left: 1em;
+	padding-bottom: -1.2ex;
+	line-height: 2.8ex;
+}
+
+p.homefoot {
+	text-indent: 1em;
+	padding-left: 0em;
+	padding-bottom: default;
+	padding-bottom: -1ex;
+	line-height: default;
+}
+
+
+p span.item {
+	font-weight: bold;
+}
+
+div.publi, div.talk, div.meeting {
+	font-family: times;
+}
+
+div.publi, div.talk, div.meeting ul {
+	line-height: 2.8ex;
+}
+
+div.publi span.title {
+	font-weight: bold;
+}
+
+div.talk span.title {
+	font-style: italic;
+}
+
+div.meeting span.title {
+	font-style: italic;
+}
+
+
+div.publi span.jtit {
+	font-style: italic;
+}
+
+div.publi span.jvol {
+	font-weight: bold;
+}
+
+div.publi span.jpage {
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+	padding-left: 1em;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 1.4em;
+	color: #0000cc;
+	color: #00aa11;
+	color: #006633;
+	background: #c3d9ff url('./slc.gif') no-repeat;
+	background: #b5edbc url('./slc.gif') no-repeat;
+}
+
+h2 {
+	font-size: 1.2em;
+	color: #0000cc;
+	background: #c3d9ff url('./slc.gif') no-repeat;
+}
+
+h3 {
+	font-size: 1.1em;
+	color: #000000;
+	background: #e8eef7 url('./slc.gif') no-repeat;
+}
+
+div.homehead {
+	clear: both;
+	margin-left: 1em;
+	font-family: sans-serif;
+}
+div.homehead span.hhleft {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+div.homehead span.hhright {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+div.spacer {
+	clear: both;
+}
+
+
+div.dip {
+	position:		fixed;
+	max-width: 		100%;
+	height:		3.5em;
+	top:			auto;
+	right:		0;
+	bottom:		-4ex;
+	left:			0;
+	background-color: #eee;
+	padding-top:	0.1em;
+	padding-bottom:	0.1ex;
+	padding-left:	0.8em;
+	padding-right:	0em;
+	font-family: sans-serif;
+}
+/*
+div.dip {
+	position:		fixed;
+	width:		100%;
+	height:		3.5em;
+	top:			auto;
+	right:		0;
+	bottom:		0;
+	left:			0;
+	padding-top:	0.1em;
+	padding-bottom:	0.5em;
+	padding-left:	2%;
+	padding-right:	0em;
+}
+*/
+
+
+div.dip hr {
+	width:	95%;
+	margin-left:	0;
+}
+
+div.banner {
+	padding-top:	0.5em;
+	padding-bottom:	0.5em;
+}
+div.banner img {
+	border: 0;
+	vertical-align: middle;
+}
+
